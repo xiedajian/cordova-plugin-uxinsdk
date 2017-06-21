@@ -10,7 +10,9 @@ cordova-plugin-uxinsdk
 福州拼单网电子商务有限公司 技术总监：袁世安
 
 ###使用说明
-npm install   
+npm install     
 
-declare var uxin:any;
+
+declare var uxin:any;    
+
 uxin.sdk.calling(tick, callPhone, success_callback, error_callback)
