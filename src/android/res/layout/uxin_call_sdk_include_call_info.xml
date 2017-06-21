@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 信息展示布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.yx.widget.CircleImageView
+        android:id="@+id/uxin_call_sdk_iv_incall_head"
+        style="@style/uxin_sdk_call_talk_user_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/uxin_call_sdk_tv_incall_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/uxin_call_sdk_call_name"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/uxin_call_sdk_in_come_phone_no_text_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/uxin_call_sdk_tv_incall_time_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/uxin_call_sdk_in_come_phone_state_text_color"
+        android:textSize="15sp"
+        android:visibility="visible" />
+
+    <!-- 网络状态异常提示布局 -->
+    <TextView
+        android:id="@+id/uxin_call_sdk_layout_net_change_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/uxin_call_sdk_message_net_hint"
+        android:textColor="@color/uxin_call_sdk_in_com_phone_prompt_text_color"
+        android:textSize="12sp"
+        android:visibility="visible" />
+
+</LinearLayout>

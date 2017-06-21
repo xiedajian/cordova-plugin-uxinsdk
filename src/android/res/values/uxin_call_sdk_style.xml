@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="uxin_sdk_call_talk_ui">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="uxin_sdk_call_talk_user_head">
+        <item name="android:layout_width">@dimen/usdk_talk_user_head_width</item>
+        <item name="android:layout_height">@dimen/usdk_talk_user_head_height</item>
+        <item name="android:src">@drawable/uxin_call_sdk_in_call_iv_head_default</item>
+    </style>
+
+    <style name="uxin_sdk_call_callout_user_head">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:src">@drawable/uxin_call_sdk_in_call_iv_head_default</item>
+    </style>
+
+    <style name="uxin_sdk_call_talk_control">
+        <item name="android:layout_width">@dimen/usdk_talk_control_width</item>
+        <item name="android:layout_height">@dimen/usdk_talk_control_height</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="uxin_sdk_call_callout_control">
+        <item name="android:layout_width">@dimen/usdk_talk_callout_control_width</item>
+        <item name="android:layout_height">@dimen/usdk_talk_callout_control_height</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="uxin_sdk_call_callout_control_big">
+        <item name="android:layout_width">@dimen/usdk_talk_callout_control_width_big</item>
+        <item name="android:layout_height">@dimen/usdk_talk_callout_control_height_big</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="uxin_sdk_call_talk_logo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+    </style>
+
+    <style name="uxin_sdk_call_callout_logo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+    </style>
+
+    <style name="uxin_call_sdk_callout_layout_info">
+        <item name="android:layout_marginTop">7dp</item>
+    </style>
+
+    <style name="uxin_call_sdk_incall_layout_info">
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="uxin_call_sdk_call_layout_crm_style">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="uxin_call_sdk_callout_layout_crm_style">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="uxin_call_sdk_callout_dialplate_key_style">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:background">@drawable/uxin_call_sdk_dial_callout_dialplate_key_selector</item>
+    </style>
+
+</resources>

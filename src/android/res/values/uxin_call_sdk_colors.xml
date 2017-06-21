@@ -1,0 +1,13 @@
+<resources>
+    <color name="uxin_call_sdk_in_come_message_top_text_color">#333333</color>
+    <color name="uxin_call_sdk_in_come_phone_no_text_color">#1b1c21</color>
+    <color name="uxin_call_sdk_in_come_phone_address_text_color">#939393</color>
+    <color name="uxin_call_sdk_in_come_phone_state_text_color">#636363</color>
+    <color name="uxin_call_sdk_in_com_phone_prompt_text_color">#636363</color>
+    <color name="uxin_call_sdk_in_come_mute_and_speaker_text_color">#939393</color>
+    <color name="uxin_call_sdk_in_come_answer_text_color">#10B524</color>
+    <color name="uxin_call_sdk_in_come_hang_up_and_refuse_color">#E14123</color>
+    
+    
+    
+</resources>

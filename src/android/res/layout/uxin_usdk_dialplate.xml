@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yx.widget.dialplate.USDKDialPlate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <com.yx.widget.dialplate.USDKDialPlateHead
+        android:id="@id/uxin_call_sdk_call_layout_dialplate_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/uxin_call_sdk_call_layout_dialplate_head_dialNum"
+            android:singleLine="true"
+            android:ellipsize="start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textSize="36dp" />
+    </com.yx.widget.dialplate.USDKDialPlateHead>
+
+    <com.yx.widget.dialplate.USDKDialPlateBody
+        android:id="@id/uxin_call_sdk_call_layout_dialplate_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <com.yx.widget.dialplate.USDKDialPlateKey
+                    android:id="@id/uxin_call_sdk_call_layout_dialplate_body_item_key_1"
+                    style="@style/uxin_call_sdk_callout_dialplate_key_style"
+                    android:text="1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <com.yx.widget.dialplate.USDKDialPlateKey
+                    android:id="@id/uxin_call_sdk_call_layout_dialplate_body_item_key_2"
+                    style="@style/uxin_call_sdk_callout_dialplate_key_style"
+                    android:text="2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <com.yx.widget.dialplate.USDKDialPlateKey
+                    android:id="@id/uxin_call_sdk_call_layout_dialplate_body_item_key_3"
+                    style="@style/uxin_call_sdk_callout_dialplate_key_style"
+                    android:text="3" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <com.yx.widget.dialplate.USDKDialPlateKey
+                    android:id="@id/uxin_call_sdk_call_layout_dialplate_body_item_key_4"
+                    style="@style/uxin_call_sdk_callout_dialplate_key_style"
+                    android:text="4" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <com.yx.widget.dialplate.USDKDialPlateKey
+                    android:id="@id/uxin_call_sdk_call_layout_dialplate_body_item_key_5"
+                    style="@style/uxin_call_sdk_callout_dialplate_key_style"
+                    android:text="5" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <com.yx.widget.dialplate.USDKDialPlateKey
+                    android:id="@id/uxin_call_sdk_call_layout_dialplate_body_item_key_6"
+                    style="@style/uxin_call_sdk_callout_dialplate_key_style"
+                    android:text="6" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <com.yx.widget.dialplate.USDKDialPlateKey
+                    android:id="@id/uxin_call_sdk_call_layout_dialplate_body_item_key_7"
+                    style="@style/uxin_call_sdk_callout_dialplate_key_style"
+                    android:text="7" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <com.yx.widget.dialplate.USDKDialPlateKey
+                    android:id="@id/uxin_call_sdk_call_layout_dialplate_body_item_key_8"
+                    style="@style/uxin_call_sdk_callout_dialplate_key_style"
+                    android:text="8" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <com.yx.widget.dialplate.USDKDialPlateKey
+                    android:id="@id/uxin_call_sdk_call_layout_dialplate_body_item_key_9"
+                    style="@style/uxin_call_sdk_callout_dialplate_key_style"
+                    android:text="9" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <com.yx.widget.dialplate.USDKDialPlateKey
+                    android:id="@id/uxin_call_sdk_call_layout_dialplate_body_item_key_10"
+                    style="@style/uxin_call_sdk_callout_dialplate_key_style"
+                    android:text="*" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <com.yx.widget.dialplate.USDKDialPlateKey
+                    android:id="@id/uxin_call_sdk_call_layout_dialplate_body_item_key_0"
+                    style="@style/uxin_call_sdk_callout_dialplate_key_style"
+                    android:text="0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <com.yx.widget.dialplate.USDKDialPlateKey
+                    android:id="@id/uxin_call_sdk_call_layout_dialplate_body_item_key_11"
+                    style="@style/uxin_call_sdk_callout_dialplate_key_style"
+                    android:text="#" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.yx.widget.dialplate.USDKDialPlateBody>
+
+</com.yx.widget.dialplate.USDKDialPlate>

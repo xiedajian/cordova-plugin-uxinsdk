@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="usdk_talk_user_head_width">78dp</dimen>
+    <dimen name="usdk_talk_user_head_height">78dp</dimen>
+
+	<dimen name="usdk_talk_control_height">74dp</dimen>
+	<dimen name="usdk_talk_control_width">74dp</dimen>
+	
+	<dimen name="usdk_talk_callout_control_height">44dp</dimen>
+	<dimen name="usdk_talk_callout_control_width">44dp</dimen>
+	<dimen name="usdk_talk_callout_control_height_big">53dp</dimen>
+	<dimen name="usdk_talk_callout_control_width_big">53dp</dimen>
+  
+</resources>

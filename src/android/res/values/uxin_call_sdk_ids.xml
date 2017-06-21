@@ -1,0 +1,30 @@
+<resources>
+
+    <item name="uxin_call_sdk_incall_layout_bottom" type="id">false</item>
+    <item name="uxin_call_sdk_incall_layout_info" type="id">false</item>
+    <item name="uxin_call_sdk_incall_layout_talkfun" type="id">false</item>
+    
+    <item name="uxin_call_sdk_call_crmInfo" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_crm" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_crm_mengban" type="id">false</item>
+    
+    <item name="uxin_call_sdk_call_layout_dialplate" type="id">false</item>
+    <item name="uxin_call_sdk_call_callout_dialplate_switch" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item_key_0" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item_key_1" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item_key_2" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item_key_3" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item_key_4" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item_key_5" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item_key_6" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item_key_7" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item_key_8" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item_key_9" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item_key_10" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_body_item_key_11" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_head" type="id">false</item>
+    <item name="uxin_call_sdk_call_layout_dialplate_head_dialNum" type="id">false</item>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="uxin_call_sdk_app_name">UxinCallSDKDemo</string>
+    <string name="uxin_call_sdk_btn_text_answer">接听</string>
+    <string name="uxin_call_sdk_dial_callout_dialplate_name">键盘</string>
+    <string name="uxin_call_sdk_btn_text_refuse">拒绝</string>
+    <string name="uxin_call_sdk_btn_text_hangup">挂机</string>
+    <string name="uxin_call_sdk_incall_tips">通过有信呼叫你</string>
+    <string name="uxin_call_sdk_callout_tips_pre">正在通过</string>
+    <string name="uxin_call_sdk_callout_tips_end">有信进行免费通话</string>
+    <string name="uxin_call_sdk_incall_calling_tips">触摸返回通话</string>
+    <string name="uxin_call_sdk_incall_coming">来电...</string>
+    <string name="uxin_call_sdk_incall_caller_cancel">对方已挂断</string>
+    <string name="uxin_call_sdk_incall_caller_hangup">通话结束</string>
+    <string name="uxin_call_sdk_incall_callee_cancel">已拒绝</string>
+    <string name="uxin_call_sdk_incall_callee_hangup">通话结束</string>
+    <string name="uxin_call_sdk_incall_hangup_other">通话结束</string>
+    <string name="uxin_call_sdk_incall_net_error_hangup">网络异常，通话结束</string>
+    <string name="uxin_call_sdk_incall_connecting">接通中...</string>
+    <string name="uxin_call_sdk_incall_hanging_up">正在挂断...</string>
+    <string name="uxin_call_sdk_incall_hangup_net_error">网络状态异常，接通失败...</string>
+    <string name="uxin_call_sdk_incall_net_error">网络状态异常...</string>
+    <string name="uxin_call_sdk_incall_not_wifi_tips">当前为非WiFi网络，将使用少量数据流量</string>
+    <string name="uxin_call_sdk_incall_no_unknown">未知</string>
+    <string name="uxin_call_sdk_btn_text_mute">静音</string>
+    <string name="uxin_call_sdk_btn_text_speaker">免提</string>
+    <string name="uxin_call_sdk_message_net_hint">当前通话网络状态不佳</string>
+    <string name="uxin_call_sdk_call_name">未知用户</string>
+
+    <!-- 通话页面提示信息 -->
+	<string name="uxin_call_sdk_message_error_theothernetanomalies">对方网络异常，请稍后重试</string>
+  	<string name="uxin_call_sdk_message_error_permission">您本地权限设置有误，请检查设置</string>
+	
+    
+    
+    <!-- 通话页面提示信息 -->
+
+</resources>

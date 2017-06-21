@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-uxinsdk",
+  "version": "1.1.0",
+  "description": "cordova-plugin-uxinsdk",
+    "cordova": {
+    "id": "cordova-plugin-uxinsdk",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiedajian/cordova-plugin-uxinsdk"
+  },
+  "keywords": [
+    "uxin",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "linux7985@163.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/xiedajian/cordova-plugin-uxinsdk"
+  },
+  "homepage": "https://github.com/xiedajian/cordova-plugin-uxinsdk"
+}

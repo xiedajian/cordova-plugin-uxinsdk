@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/uxin_sdk_call_talk_ui" >
+
+    <!-- 顶部提示布局 -->
+
+    <include
+        android:id="@+id/uxin_call_sdk_incall_layout_tips"
+        style="@style/uxin_sdk_call_talk_logo"
+        layout="@layout/uxin_sdk_include_call_head" />
+
+    <!-- 信息展示布局 -->
+
+    <include
+        android:id="@id/uxin_call_sdk_incall_layout_info"
+        style="@style/uxin_call_sdk_incall_layout_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uxin_call_sdk_incall_layout_tips"
+        layout="@layout/uxin_call_sdk_include_call_info" />
+
+    <!-- CRM布局 -->
+
+    <include
+        style="@style/uxin_call_sdk_call_layout_crm_style"
+        android:id="@id/uxin_call_sdk_call_layout_crm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/uxin_call_sdk_incall_layout_talkfun"
+        android:layout_below="@id/uxin_call_sdk_incall_layout_info"
+        layout="@layout/uxin_call_sdk_include_call_crm" />
+
+    <!-- 功能键布局 -->
+
+    <include
+        android:id="@id/uxin_call_sdk_incall_layout_talkfun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        layout="@layout/uxin_call_sdk_include_call_talkfun" />
+
+</RelativeLayout>

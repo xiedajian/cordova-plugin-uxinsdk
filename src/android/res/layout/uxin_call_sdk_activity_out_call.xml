@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/uxin_sdk_call_talk_ui" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/uxin_call_sdk_incall_layout_talkfun"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="203dp"
+            android:orientation="vertical" >
+
+            <!-- 顶部提示布局 -->
+
+            <include
+                android:id="@+id/uxin_call_sdk_incall_layout_tips"
+                style="@style/uxin_sdk_call_callout_logo"
+                layout="@layout/uxin_sdk_include_call_head" />
+            <!-- 信息展示布局 -->
+
+            <include
+                android:id="@id/uxin_call_sdk_incall_layout_info"
+                style="@style/uxin_call_sdk_callout_layout_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/uxin_call_sdk_include_callout_info" />
+        </LinearLayout>
+        
+        <!-- CRM布局 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <include
+                android:id="@id/uxin_call_sdk_call_layout_crm"
+                style="@style/uxin_call_sdk_callout_layout_crm_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/uxin_call_sdk_include_call_crm" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- 拨号盘 -->
+
+    <include
+        android:id="@id/uxin_call_sdk_call_layout_dialplate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/uxin_call_sdk_incall_layout_talkfun"
+        layout="@layout/uxin_usdk_dialplate"
+        android:visibility="gone" />
+
+    <!-- 功能键布局 -->
+
+    <include
+        android:id="@id/uxin_call_sdk_incall_layout_talkfun"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        layout="@layout/uxin_call_sdk_include_call_out_talkfun" />
+
+</RelativeLayout>

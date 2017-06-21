@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 功能键布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@id/uxin_call_sdk_incall_layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/uxin_call_sdk_layout_incall_mute"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/uxin_call_sdk_iv_incall_mute"
+                style="@style/uxin_sdk_call_callout_control"
+                android:background="@drawable/uxin_call_sdk_incall_btn_mute_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="@string/uxin_call_sdk_btn_text_mute"
+                android:textColor="@color/uxin_call_sdk_in_come_mute_and_speaker_text_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/uxin_call_sdk_call_callout_dialplate_layout_switch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/uxin_call_sdk_call_callout_dialplate_switch"
+                style="@style/uxin_sdk_call_callout_control"
+                android:background="@drawable/uxin_call_sdk_dial_callout_dialplate_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="@string/uxin_call_sdk_dial_callout_dialplate_name"
+                android:textColor="@color/uxin_call_sdk_in_come_mute_and_speaker_text_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/uxin_call_sdk_layout_incall_speaker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/uxin_call_sdk_iv_incall_speaker"
+                style="@style/uxin_sdk_call_callout_control"
+                android:background="@drawable/uxin_call_sdk_incall_btn_speaker_selector" />
+
+            <TextView
+                android:id="@+id/uxin_call_sdk_tv_incall_speaker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="@string/uxin_call_sdk_btn_text_speaker"
+                android:textColor="@color/uxin_call_sdk_in_come_mute_and_speaker_text_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/uxin_call_sdk_layout_incall_hangup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/uxin_call_sdk_iv_incall_hangup"
+                style="@style/uxin_sdk_call_callout_control_big"
+                android:background="@drawable/uxin_call_sdk_incall_btn_hangup_selector" />
+
+            <TextView
+                android:id="@+id/uxin_call_sdk_refuse_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="@string/uxin_call_sdk_btn_text_hangup"
+                android:textColor="@color/uxin_call_sdk_in_come_hang_up_and_refuse_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
