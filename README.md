@@ -22,8 +22,19 @@ ionic cordova plugin add cordova-plugin-uxinsdk    
 
 ```
 
+3.使用
+```
+declare var uxin:any;   
 
 
-declare var uxin:any;    
+let account_id = "3_1512_18073118015";
+//登陆
+uxin.sdk.signIn(account_id, callPhone, success_callback, error_callback)
 
+//呼叫
 uxin.sdk.calling(tick, callPhone, success_callback, error_callback)
+```
+
+ 
+
+
