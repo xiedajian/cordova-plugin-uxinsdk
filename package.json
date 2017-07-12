@@ -1,27 +1,96 @@
 {
-  "name": "cordova-plugin-uxinsdk",
-  "version": "1.1.0",
-  "description": "cordova-plugin-uxinsdk",
-    "cordova": {
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-uxinsdk",
+        "scope": null,
+        "escapedName": "cordova-plugin-uxinsdk",
+        "name": "cordova-plugin-uxinsdk",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "F:\\web\\KmfApp2.0_up\\upupup\\node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-uxinsdk@latest",
+  "_id": "cordova-plugin-uxinsdk@1.1.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-uxinsdk",
+  "_nodeVersion": "6.9.5",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-uxinsdk-1.1.0.tgz_1498034094019_0.5768590031657368"
+  },
+  "_npmUser": {
+    "name": "xiedajian",
+    "email": "172265972@qq.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-uxinsdk",
+    "scope": null,
+    "escapedName": "cordova-plugin-uxinsdk",
+    "name": "cordova-plugin-uxinsdk",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-uxinsdk/-/cordova-plugin-uxinsdk-1.1.0.tgz",
+  "_shasum": "a6d325010c0ebc879473025df9c364076bf6b70a",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-uxinsdk",
+  "_where": "F:\\web\\KmfApp2.0_up\\upupup\\node_modules",
+  "author": {
+    "name": "linux7985@163.com"
+  },
+  "bugs": {
+    "url": "https://github.com/xiedajian/cordova-plugin-uxinsdk"
+  },
+  "cordova": {
     "id": "cordova-plugin-uxinsdk",
     "platforms": [
       "android",
       "ios"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xiedajian/cordova-plugin-uxinsdk"
+  "dependencies": {},
+  "description": "cordova-plugin-uxinsdk",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "a6d325010c0ebc879473025df9c364076bf6b70a",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-uxinsdk/-/cordova-plugin-uxinsdk-1.1.0.tgz"
   },
+  "gitHead": "e1dc4cfde8ecb7133f9f315c2d80b171bf38efec",
+  "homepage": "https://github.com/xiedajian/cordova-plugin-uxinsdk",
   "keywords": [
     "uxin",
     "cordova-ios",
     "cordova-android"
   ],
-  "author": "linux7985@163.com",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/xiedajian/cordova-plugin-uxinsdk"
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "xiedajian",
+      "email": "172265972@qq.com"
+    }
+  ],
+  "name": "cordova-plugin-uxinsdk",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiedajian/cordova-plugin-uxinsdk.git"
   },
-  "homepage": "https://github.com/xiedajian/cordova-plugin-uxinsdk"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
 }
