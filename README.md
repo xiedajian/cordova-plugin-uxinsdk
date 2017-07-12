@@ -10,9 +10,13 @@
 福州拼单网电子商务有限公司 技术总监：袁世安
 
 ### 使用说明
-  
+1.安装插件    
+
+```  
 ionic cordova plugin add cordova-plugin-uxinsdk    
-在platforms\android\AndroidManifest.xml文件中 加入
+```
+2.在platforms\android\AndroidManifest.xml文件中加入android:name="com.ipvp.master.SDK.UXinSDKPluginApp"    
+
 ```
  <application android:hardwareAccelerated="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="com.ipvp.master.SDK.UXinSDKPluginApp" android:supportsRtl="true">
 
