@@ -47,7 +47,7 @@
   "_spec": "cordova-plugin-uxinsdk",
   "_where": "F:\\web\\KmfApp2.0_up\\upupup\\node_modules",
   "author": {
-    "name": "linux7985@163.com"
+    "name": "172265972@qq.com"
   },
   "bugs": {
     "url": "https://github.com/xiedajian/cordova-plugin-uxinsdk"
@@ -71,8 +71,8 @@
   "homepage": "https://github.com/xiedajian/cordova-plugin-uxinsdk",
   "keywords": [
     "uxin",
-    "cordova-ios",
-    "cordova-android"
+    "cordova",
+    "ionic"
   ],
   "license": "Apache-2.0",
   "main": "index.js",
@@ -92,5 +92,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
